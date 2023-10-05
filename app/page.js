@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import {InputBox} from '@/components'
 import useCurrencyInfo from '@/hooks/useCurrencyInfo'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 export default function Home() {
   const [amount, setAmount] = useState(0);
