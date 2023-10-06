@@ -29,7 +29,7 @@ export default function Home() {
    <div className='h-full '>
    <Image
     className='-z-40 blur-[3px] opacity-80'
-src="/bgimg.jpg"
+src="@/public/bgimg.jpg"
 alt="Mountains"
 quality={100}
 fill
